@@ -33,6 +33,7 @@ ________________________________________________________________________________
 
                 <!--Vendor Properties -->
                 <Prop Name="vendor.debug.enable.lm" Value="true" />
+                <Prop Name="vendor.iop.enable_iop" Value="0" />
                 <Prop Name="vendor.iop.enable_uxe" Value="0" />
                 <Prop Name="vendor.enable.prefetch" Value="false" />
                 <Prop Name="vendor.iop.enable_prefetch_ofr" Value="0" />
@@ -60,7 +61,7 @@ ________________________________________________________________________________
                 <Prop Name="ro.lmk.kill_timeout_ms_dup" Value="100" />
                 <Prop Name="ro.lmk.thrashing_threshold" Value="10" />
                 <Prop Name="ro.lmk.thrashing_decay" Value="2" />
-                <Prop Name="ro.lmk.nstrat_low_swap" Value="20" />
+                <Prop Name="ro.lmk.nstrat_low_swap" Value="10" />
                 <Prop Name="ro.lmk.nstrat_psi_partial_ms" Value="35" />
                 <Prop Name="ro.lmk.nstrat_psi_complete_ms" Value="35" />
                 <Prop Name="ro.lmk.nstrat_psi_scrit_complete_stall_ms" Value="50" />
